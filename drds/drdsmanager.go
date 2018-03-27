@@ -10,9 +10,7 @@ import (
 )
 
 func main(){
-	dbname:=flag.String("dbname","all","maybe all or the real dbname:\n" +
-		"kbpos_bas,kbpos_scm kbpos_member kbpos_crm\n" +
-		"kbpos_takeout kbpos_market kbpos_mobile kbpos_bill")
+	dbname:=flag.String("dbname","all","dbname  or all")
 	dbdnsname:=flag.String("dbdnsname","**********************","please input the db dns name!!!")
 	user:=flag.String("user","**********","please input the db user name!!!")
 	password:=flag.String("password","***********","please input the db password!!!")
